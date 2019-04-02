@@ -1,0 +1,71 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-04-02T00:29:27.376Z",
+    "end": "2019-04-02T00:29:27.411Z",
+    "duration": 35
+  },
+  "tests": [
+    {
+      "title": "uses a default 'values' prop of an array with 10 items",
+      "fullTitle": "<Matrix /> uses a default 'values' prop of an array with 10 items",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "each sub-array of the default 'values' prop is an array",
+      "fullTitle": "<Matrix /> each sub-array of the default 'values' prop is an array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
+      "fullTitle": "<Matrix /> each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before each\" hook for \"is a correctly defined and exported React component which renders a <div> with a className of 'cell'\"",
+      "fullTitle": "<Cell /> \"before each\" hook for \"is a correctly defined and exported React component which renders a <div> with a className of 'cell'\"",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'prototype' of undefined\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:489:44)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:265:22)\n    at shallow (node_modules/enzyme/build/shallow.js:21:10)\n    at Context.<anonymous> (test/1-Cell.test.js:28:17)",
+        "message": "Cannot read property 'prototype' of undefined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "uses a default 'values' prop of an array with 10 items",
+      "fullTitle": "<Matrix /> uses a default 'values' prop of an array with 10 items",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "each sub-array of the default 'values' prop is an array",
+      "fullTitle": "<Matrix /> each sub-array of the default 'values' prop is an array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
+      "fullTitle": "<Matrix /> each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
